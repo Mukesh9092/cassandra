@@ -12,7 +12,7 @@ spec:
   selector:
     app: cassandra
 ---
-apiVersion: v1
+apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: cassandra
